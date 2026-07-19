@@ -109,8 +109,9 @@
             </svg>
             <div>
               <span class="font-bold">Transmission Error</span>
-              <p class="text-xs text-red-700 mt-1">{{ serverErrorMessage || 'Failed to submit the form. Please try again
-                later.' }}</p>
+              <p class="text-xs text-red-700 mt-1">
+                {{ serverErrorMessage || 'Failed to submit the form. Please try again later.' }}
+              </p>
             </div>
           </div>
 
